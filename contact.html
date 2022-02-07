@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        .div {
+            border: 2px solid black;
+            margin-top: 70px;
+            margin-right: 780px;
+            margin-left: 660px;
+        }
+
+        .contact {
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        .back {
+            margin-left: 15px;
+            margin-bottom: 15px;
+            margin-top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <!-- label included to define what should be given as the input  -->
+                <label for="name">Name</label> <br>
+                <!-- input type as a text  -->
+                <input type="text" name="name" required placeholder="Enter Your Name">
+                <br><br>
+                <!-- label included to define what should be given as the input  -->
+                <label for="email">Email</label> <br>
+                <!-- input type as a email  -->
+                <input type="email" name="email" required placeholder="test@gmail.com">
+                <br><br>
+                <!-- label included to define what should be given as the input  -->
+                <label for="message">Your Message</label> <br>
+                <!-- This is the textarea for message  -->
+                <textarea cols="50" rows="5"></textarea>
+                <br><br>
+                <!-- This is a submit button  -->
+                <input type="submit" name="submit">
+            </form>
+        </div>
+        <!-- This is a back button to go to homepage  -->
+        <div class="back">
+            <a href="Portfolio.html">Back</a>
+        </div>
+    </div>
+</body>
+
+</html>
